@@ -23,5 +23,9 @@ p {
 .spoiler {
   background: var(--spoiler-color);
   color: var(--spoiler-color);
+}
 
+.spoiler:hover {
+  background: initial;
+  color: initial;
 }
