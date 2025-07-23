@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.post {
+  background: #e8eaed;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
