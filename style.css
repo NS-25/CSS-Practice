@@ -23,6 +23,7 @@ p {
 .spoiler {
   background: var(--spoiler-color);
   color: var(--spoiler-color);
+  transition: all .5s ease-in;
 }
 
 .spoiler:hover {
