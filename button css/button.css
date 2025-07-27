@@ -41,6 +41,16 @@ body {
   letter-spacing: .1em;
   /* border-image: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
       border-image-slice: 1;  same without using button-border */
-      
 
+
+}
+
+.button-border:hover {
+  background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+
+}
+
+.button-border:hover .button {
+  color: var(--btn-color-hover);
+  padding: 1.1em 1.6em;
 }
