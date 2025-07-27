@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--body-bg);
+  font-family: var(--font-family);
 }
 
 :root {
@@ -31,9 +32,11 @@ body {
   padding: 2px;
 }
 
-.button{
+.button {
   border: none;
   background: var(--body-bg);
   color: var(--btn-color);
   padding: 1em 1.5em;
+  font-family: inherit;
+  letter-spacing: .1em;
 }
