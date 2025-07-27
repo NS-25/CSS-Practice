@@ -39,4 +39,8 @@ body {
   padding: 1em 1.5em;
   font-family: inherit;
   letter-spacing: .1em;
+  /* border-image: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+      border-image-slice: 1;  same without using button-border */
+      
+
 }
