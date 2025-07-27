@@ -17,3 +17,10 @@ body {
   --grad-color5: #6a0d83;
 
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
