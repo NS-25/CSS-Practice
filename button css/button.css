@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--body-bg);
 }
 
 :root {
@@ -23,4 +24,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.button-border {
+  background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+  padding: 2px;
 }
