@@ -39,3 +39,11 @@ body {
   width: 100%;
   border-color: var(--search-focus-border);
 }
+
+.search-bar::placeholder {
+  font-weight: 200;
+}
+
+.search-bar:focus::placeholder {
+  color: transparent;
+}
