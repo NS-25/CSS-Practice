@@ -21,7 +21,7 @@ body {
   padding: 0;
 }
 
- p,
+p,
 h3 {
   margin: 0;
   padding: 0;
@@ -29,8 +29,22 @@ h3 {
 
 ul {
   padding-left: 0;
-} 
+}
 
 ul li {
   list-style-type: none;
+}
+
+.card {
+  max-width: 300px;
+  background-color: var(--bg-card);
+}
+
+.card-thumbnail img {
+  max-width: 100%;
+}
+
+.card-avatar img {
+  height: 50px;
+  width: 50px;
 }
