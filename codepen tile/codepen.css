@@ -52,6 +52,10 @@ img {
   max-width: 100%;
 }
 
+.card-body{
+  display: flex;
+}
+
 .card-avatar img {
   height: 50px;
   width: 50px;
