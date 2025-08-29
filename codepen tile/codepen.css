@@ -38,6 +38,8 @@ ul li {
 .card {
   max-width: 300px;
   background-color: var(--bg-card);
+  margin: auto;
+  padding: 1rem;
 }
 
 .card-thumbnail img {
