@@ -67,3 +67,8 @@ img {
   font-weight: 900;
   font-size: 1rem;
 }
+
+.card-details p {
+  font-size: .85rem;
+  color: var(--username);
+}
