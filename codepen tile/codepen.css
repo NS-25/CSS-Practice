@@ -19,6 +19,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 p,
@@ -33,6 +34,11 @@ ul {
 
 ul li {
   list-style-type: none;
+}
+
+.card,
+img {
+  border-radius: 10px;
 }
 
 .card {
