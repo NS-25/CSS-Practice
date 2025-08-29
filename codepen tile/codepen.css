@@ -79,7 +79,8 @@ img {
 
 
 .card-stats {
-  display: flex;
+  display: none;
+  padding-bottom: .5em;
 }
 
 .card-stats li {
@@ -87,4 +88,12 @@ img {
   padding: .25em .5em;
   margin-right: .5em;
   border-radius: 5px;
+}
+
+.card:hover .card-stats {
+  display: flex;
+}
+
+.card:hover {
+  padding-bottom: 0;
 }
